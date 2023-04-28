@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="container">
+      <div class="input-info">
+        <div class="child-1">
+          <p>DAY</p>
+          <input class="input-style input-1" type="text" placeholder="DD" />
+          <p class="text-1 text">Must be a valid day</p>
+        </div>
+        <div class="child-2">
+          <p>MONTH</p>
+          <input class="input-style input-2" type="text" placeholder="MM" />
+          <p class="text-2 text">Must be a valid month</p>
+        </div>
+        <div class="child-3">
+          <p>YEAR</p>
+          <input class="input-style input-3" type="text" placeholder="YYYY" />
+          <p class="text-3 text">Must be in the past</p>
+        </div>
+      </div>
+
+      <div class="hr-img">
+        <hr />
+        <img class="icon-arrow" src="images/icon-arrow.svg" alt="arrow" />
+      </div>
+
+      <h2><span class="years">- -</span> years</h2>
+      <h2><span class="months">- -</span> months</h2>
+      <h2><span class="days">- -</span> days</h2>
+    </div>
+    <!--  -->
+    <script src="app.js"></script>
+  </body>
+</html>
